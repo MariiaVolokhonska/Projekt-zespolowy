@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "GroupProject.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\QRLogic\\QRLogic.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

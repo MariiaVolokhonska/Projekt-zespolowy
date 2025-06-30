@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03E7D5B7-E80E-0063-CEAA-E7A331DEEE3F}|QRLogic.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\qrlogic\\qrgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E7D5B7-E80E-0063-CEAA-E7A331DEEE3F}|QRLogic.csproj|solutionrelative:qrgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E7D5B7-E80E-0063-CEAA-E7A331DEEE3F}|QRLogic.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\qrlogic\\controllers\\qrinteractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03E7D5B7-E80E-0063-CEAA-E7A331DEEE3F}|QRLogic.csproj|solutionrelative:controllers\\qrinteractioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03E7D5B7-E80E-0063-CEAA-E7A331DEEE3F}|QRLogic.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\qrlogic\\qrlogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{03E7D5B7-E80E-0063-CEAA-E7A331DEEE3F}|QRLogic.csproj|solutionrelative:qrlogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QRInteractionController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Controllers\\QRInteractionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QRInteractionController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Controllers\\QRInteractionController.cs",
+              "RelativeToolTip": "Controllers\\QRInteractionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:04:32.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QRLogic",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRLogic.csproj",
+              "RelativeDocumentMoniker": "QRLogic.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRLogic.csproj",
+              "RelativeToolTip": "QRLogic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-28T11:50:50.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QRGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRGenerator.cs",
+              "RelativeDocumentMoniker": "QRGenerator.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRGenerator.cs",
+              "RelativeToolTip": "QRGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T23:36:56.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

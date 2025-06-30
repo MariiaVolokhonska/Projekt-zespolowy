@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "QRLogic.Controllers.QRInteractionController",
+    "Method": "Points",
+    "RelativePath": "points",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QRLogic.Controllers.QRInteractionController",
+    "Method": "Trigger",
+    "RelativePath": "trigger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
