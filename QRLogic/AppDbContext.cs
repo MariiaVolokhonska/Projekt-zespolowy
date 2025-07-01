@@ -1,14 +1,24 @@
 ﻿using System.Collections.Generic;
 using GroupProject.Models;
 using Microsoft.EntityFrameworkCore;
+using QRLogic.Entities;
 
 namespace QRLogic
 {
 
     public class AppDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-
+        private IConfiguration _configuration { get; }
         public DbSet<QrCodeScan> QrCodeScans { get; set; }
+        public DbSet<User> Users { get; set; }
+
+        public AppDbContext(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            options.UseSqlServer(@"Server=localhost;Database=GroupProject;Trusted_Connection=True;TrustServerCertificate=True;", x => x.MigrationsHistoryTable("__EFMigrationsHistory", "GroupProject"));
+        }
     }
 }
