@@ -24,18 +24,14 @@ namespace GroupProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Sprawdź, czy użytkownik już istnieje
                 var existingUser = _context.Users.FirstOrDefault(u => u.Email == user.Email);
                 if (existingUser != null)
                 {
                     ModelState.AddModelError("Email", "Użytkownik z takim adresem e-mail już istnieje.");
                     return View(user);
                 }
-
                 _context.Users.Add(user);
                 _context.SaveChanges();
-
-                // Przekierowanie po udanej rejestracji
                 return RedirectToAction("Login");
             }
 
@@ -59,9 +55,10 @@ namespace GroupProject.Controllers
 
                 if (existingUser != null)
                 {
-                    return RedirectToAction("Index", "Home");
+                    Console.WriteLine("Użytkownik znaleziony: " + existingUser.Email);
+                    return RedirectToAction("Index", "Main");
                 }
-
+                Console.WriteLine("Użytkownik NIE znaleziony.");
                 ModelState.AddModelError(string.Empty, "Nieprawidłowy e-mail lub hasło.");
             }
 
