@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "qHGoOZK5yT3WvrhAehw/wlU59qZtpU4oOt5y0ccLtrc=",
+  "Hash": "V6y3lOFlqnzdo8gZlfuKzOURtm2uqsg+Xq4YA54QZlA=",
   "Source": "QRLogic",
   "BasePath": "_content/QRLogic",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

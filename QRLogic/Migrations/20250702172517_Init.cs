@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace QRLogic.Migrations
 {
     /// <inheritdoc />
-    public partial class Users : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -13,9 +14,19 @@ namespace QRLogic.Migrations
             migrationBuilder.EnsureSchema(
                 name: "GroupProject");
 
-            migrationBuilder.DropTable(
-                name: "Users",
-                schema: "GroupProject");
+            migrationBuilder.CreateTable(
+                name: "QrCodeScans",
+                columns: table => new
+                {
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    IsUsed = table.Column<bool>(type: "bit", nullable: false),
+                    Points = table.Column<int>(type: "int", nullable: true),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_QrCodeScans", x => x.Id);
+                });
 
             migrationBuilder.CreateTable(
                 name: "Users",
@@ -38,7 +49,12 @@ namespace QRLogic.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            
+            migrationBuilder.DropTable(
+                name: "QrCodeScans");
+
+            migrationBuilder.DropTable(
+                name: "Users",
+                schema: "GroupProject");
         }
     }
 }

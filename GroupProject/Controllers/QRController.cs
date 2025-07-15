@@ -1,6 +1,5 @@
-﻿using GroupProject.Models;
-using Microsoft.AspNetCore.Mvc;
-using QRLogic;
+﻿using Microsoft.AspNetCore.Mvc;
+using QRLogic.Entities;
 using QRLogic.Interfaces;
 
 public class QRController : Controller

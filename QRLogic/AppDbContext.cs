@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using GroupProject.Models;
 using Microsoft.EntityFrameworkCore;
 using QRLogic.Entities;
 
@@ -10,6 +9,9 @@ namespace QRLogic
     {
         private IConfiguration _configuration { get; }
         public DbSet<QrCodeScan> QrCodeScans { get; set; }
+        public DbSet<Coupon> Coupons { get; set; }
+        public DbSet<Service> Services { get; set; }
+        public DbSet<UserPontsWallet> UserPontsWallets { get; set; }
         public DbSet<User> Users { get; set; }
 
         public AppDbContext(IConfiguration configuration)

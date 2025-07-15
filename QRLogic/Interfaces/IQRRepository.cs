@@ -1,4 +1,4 @@
-﻿using GroupProject.Models;
+﻿using QRLogic.Entities;
 
 namespace QRLogic.Interfaces
 {

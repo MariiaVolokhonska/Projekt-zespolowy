@@ -12,7 +12,7 @@ using QRLogic;
 namespace QRLogic.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250630115946_Init")]
+    [Migration("20250702172517_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -42,6 +42,37 @@ namespace QRLogic.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("QrCodeScans");
+                });
+
+            modelBuilder.Entity("QRLogic.Entities.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("LasttName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users", "GroupProject");
                 });
 #pragma warning restore 612, 618
         }

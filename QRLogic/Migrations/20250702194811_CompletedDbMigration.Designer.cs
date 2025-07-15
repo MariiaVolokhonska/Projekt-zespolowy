@@ -12,8 +12,8 @@ using QRLogic;
 namespace QRLogic.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250701222724_Users")]
-    partial class Users
+    [Migration("20250702194811_CompletedDbMigration")]
+    partial class CompletedDbMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace QRLogic.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("GroupProject.Models.QrCodeScan", b =>
+            modelBuilder.Entity("QRLogic.Entities.QrCodeScan", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -37,6 +37,9 @@ namespace QRLogic.Migrations
                         .HasColumnType("bit");
 
                     b.Property<int?>("Points")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
