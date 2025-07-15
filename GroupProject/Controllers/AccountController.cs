@@ -32,6 +32,45 @@ namespace GroupProject.Controllers
                 }
                 _context.Users.Add(user);
                 _context.SaveChanges();
+
+                var coupons = new List<Coupon>
+        {
+            new Coupon
+            {
+                UserId = user.Id,
+                Code = "WELCOME1_" + user.Id,
+                Description = "Welcome coupon #1",
+                Discount = 10.0m,
+                ExpirationDate = DateTime.Now.AddMonths(1)
+            },
+            new Coupon
+            {
+                UserId = user.Id,
+                Code = "WELCOME2_" + user.Id,
+                Description = "Welcome coupon #2",
+                Discount = 15.0m,
+                ExpirationDate = DateTime.Now.AddMonths(1)
+            },
+            new Coupon
+            {
+                UserId = user.Id,
+                Code = "WELCOME3_" + user.Id,
+                Description = "Welcome coupon #3",
+                Discount = 20.0m,
+                ExpirationDate = DateTime.Now.AddMonths(1)
+            },
+            new Coupon
+            {
+                UserId = user.Id,
+                Code = "WELCOME4_" + user.Id,
+                Description = "Welcome coupon #4",
+                Discount = 25.0m,
+                ExpirationDate = DateTime.Now.AddMonths(1)
+            }
+        };
+
+                _context.Coupons.AddRange(coupons);
+                _context.SaveChanges();
                 return RedirectToAction("Login");
             }
 
