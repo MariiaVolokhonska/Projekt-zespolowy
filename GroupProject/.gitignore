@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.json
+*.g.cs
+*.g.i.cs
+*.deps.json
+*.runtimeconfig.json
+*.sourcelink.json
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.docstates
