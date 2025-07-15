@@ -3,70 +3,31 @@
   "WorkspaceRootPath": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76F7005F-6988-4BB9-9352-A1D5938C05CA}|..\\QRLogic\\QRLogic.csproj|d:\\studia\\projekt-zespolowy\\qrlogic\\migrations\\20250701222724_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F7005F-6988-4BB9-9352-A1D5938C05CA}|..\\QRLogic\\QRLogic.csproj|d:\\studia\\projekt-zespolowy\\qrlogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Studia\\Projekt-zespolowy\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F7005F-6988-4BB9-9352-A1D5938C05CA}|..\\QRLogic\\QRLogic.csproj|d:\\studia\\projekt-zespolowy\\qrlogic\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F7005F-6988-4BB9-9352-A1D5938C05CA}|..\\QRLogic\\QRLogic.csproj|d:\\studia\\projekt-zespolowy\\qrlogic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{76F7005F-6988-4BB9-9352-A1D5938C05CA}|..\\QRLogic\\QRLogic.csproj|d:\\studia\\projekt-zespolowy\\qrlogic\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\views\\qr\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:views\\qr\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|d:\\studia\\projekt-zespolowy\\groupproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\qrlogic\\qrlogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Controllers\\QRInteractionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Interfaces\\IQRRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Repositories\\QRRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRLogic.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -92,241 +53,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250701222724_Users.cs",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\QRLogic\\Migrations\\20250701222724_Users.cs",
-              "RelativeDocumentMoniker": "..\\QRLogic\\Migrations\\20250701222724_Users.cs",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\QRLogic\\Migrations\\20250701222724_Users.cs*",
-              "RelativeToolTip": "..\\QRLogic\\Migrations\\20250701222724_Users.cs*",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T22:27:25.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\.gitignore",
-              "RelativeDocumentMoniker": "..\\.gitignore",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\.gitignore",
-              "RelativeToolTip": "..\\.gitignore",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-01T22:22:46.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\QRLogic\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\QRLogic\\appsettings.json",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\QRLogic\\appsettings.json",
-              "RelativeToolTip": "..\\QRLogic\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAByAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-01T22:20:40.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\QRLogic\\Entities\\User.cs",
               "RelativeDocumentMoniker": "..\\QRLogic\\Entities\\User.cs",
               "ToolTip": "D:\\Studia\\Projekt-zespolowy\\QRLogic\\Entities\\User.cs",
               "RelativeToolTip": "..\\QRLogic\\Entities\\User.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAIwBcAAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA8wBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T22:10:19.033Z",
+              "WhenOpened": "2025-07-15T18:38:21.286Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "Controllers\\AccountController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:35:00.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\QRLogic\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "..\\QRLogic\\AppDbContext.cs",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\QRLogic\\AppDbContext.cs",
-              "RelativeToolTip": "..\\QRLogic\\AppDbContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABQAAADFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T22:07:45.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T13:07:06.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QRLogic.csproj",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\QRLogic\\QRLogic.csproj",
-              "RelativeDocumentMoniker": "QRLogic\\QRLogic.csproj",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\QRLogic\\QRLogic.csproj",
-              "RelativeToolTip": "QRLogic\\QRLogic.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-28T12:30:21.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "QRController.cs",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\QRController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QRController.cs",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\QRController.cs",
-              "RelativeToolTip": "Controllers\\QRController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T12:31:56.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "QRInteractionController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Controllers\\QRInteractionController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Controllers\\QRInteractionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T13:27:08.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T12:23:11.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T13:07:38.911Z"
+              "WhenOpened": "2025-07-15T18:28:17.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T11:55:30.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Views\\QR\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\QR\\Index.cshtml",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Views\\QR\\Index.cshtml",
-              "RelativeToolTip": "Views\\QR\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T12:35:25.685Z"
+              "WhenOpened": "2025-07-15T18:26:45.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IQRRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Interfaces\\IQRRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Interfaces\\IQRRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:26:32.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QRController.cs",
+              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\QRController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QRController.cs",
+              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\QRController.cs",
+              "RelativeToolTip": "Controllers\\QRController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:08:20.203Z"
+              "WhenOpened": "2025-07-15T18:25:07.768Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T12:23:39.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T12:23:49.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "QRRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Repositories\\QRRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Repositories\\QRRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Studia\\Projekt-zespolowy\\GroupProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:06:52.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T11:46:53.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "QRGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRGenerator.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T12:31:21.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "QRLogic.http",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRLogic.http",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\QRLogic.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-28T12:26:56.329Z"
+              "WhenOpened": "2025-07-15T18:24:59.091Z",
+              "EditorCaption": ""
             }
           ]
         }

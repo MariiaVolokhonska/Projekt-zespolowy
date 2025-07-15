@@ -13,9 +13,7 @@ namespace QRLogic.Migrations
             migrationBuilder.EnsureSchema(
                 name: "GroupProject");
 
-            migrationBuilder.DropTable(
-                name: "Users",
-                schema: "GroupProject");
+            
 
             migrationBuilder.CreateTable(
                 name: "Users",
@@ -38,7 +36,9 @@ namespace QRLogic.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            
+            migrationBuilder.DropTable(
+                name: "Users",
+                schema: "GroupProject");
         }
     }
 }
