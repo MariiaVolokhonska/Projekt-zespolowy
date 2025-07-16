@@ -32,8 +32,9 @@ namespace GroupProject.Controllers
                 }
                 _context.Users.Add(user);
                 _context.SaveChanges();
+                
 
-                var coupons = new List<Coupon>
+                /*var coupons = new List<Coupon>
         {
             new Coupon
             {
@@ -71,16 +72,15 @@ namespace GroupProject.Controllers
 
                 _context.Coupons.AddRange(coupons);
                 _context.SaveChanges();
-                return RedirectToAction("Login");
+                return RedirectToAction("Login");*/
             }
-
             return View(user);
         }
 
         [HttpGet]
         public IActionResult Login()
         {
-            return View();
+           return View();
         }
 
         [HttpPost]

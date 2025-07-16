@@ -118,7 +118,7 @@ namespace QRLogic.Migrations
                     b.ToTable("Users", "GroupProject");
                 });
 
-            modelBuilder.Entity("QRLogic.Entities.UserPontsWallet", b =>
+            modelBuilder.Entity("QRLogic.Entities.UserPointsWallet", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

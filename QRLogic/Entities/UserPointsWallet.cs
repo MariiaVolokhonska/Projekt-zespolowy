@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace QRLogic.Entities
 {
-    public class UserPontsWallet
+    public class UserPointsWallet
     {
         [Key]
         public int Id { get; set; }

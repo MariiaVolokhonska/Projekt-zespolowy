@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QRLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ceb8270383c2a20843db66a6b80812f7dcd4152")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38feb24ce96626060a6f352a698cfe24cecf4878")]
 [assembly: System.Reflection.AssemblyProductAttribute("QRLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QRLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

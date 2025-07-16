@@ -11,7 +11,7 @@ namespace QRLogic
         public DbSet<QrCodeScan> QrCodeScans { get; set; }
         public DbSet<Coupon> Coupons { get; set; }
         public DbSet<Service> Services { get; set; }
-        public DbSet<UserPontsWallet> UserPontsWallets { get; set; }
+        public DbSet<UserPointsWallet> UserPontsWallets { get; set; }
         public DbSet<User> Users { get; set; }
 
         public AppDbContext(IConfiguration configuration)
