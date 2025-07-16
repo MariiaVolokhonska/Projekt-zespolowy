@@ -9,7 +9,7 @@ namespace QRLogic.Entities
 
         [Required]
         [StringLength(100)]
-        public string Name{ get; set; }
+        public string? Name{ get; set; }
         [Required]
         public int PointPrice { get; set; }
         public string? ImageUrl { get; set; }

@@ -6,7 +6,7 @@ namespace QRLogic.Entities
     public class Coupon
     {
         [Key]
-        public string Id { get; set; }
+        public string? Id { get; set; }
 
         [ForeignKey("User")]
         public int UserId { get; set; }
