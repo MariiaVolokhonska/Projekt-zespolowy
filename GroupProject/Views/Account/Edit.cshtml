@@ -1,0 +1,111 @@
+﻿@{
+    ViewData["Title"] = "Edycja Profilu";
+
+    var firstName = Context.Session.GetString("UserFirstName");
+    var lastName = Context.Session.GetString("UserLastName");
+    var email = Context.Session.GetString("UserEmail");
+    var successMessage = TempData["SuccessMessage"] as string;
+}
+
+<style>
+    body {
+        background-color: #0a122a;
+        color: #cbd5e1;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .profile-container {
+        max-width: 600px;
+        margin: 60px auto;
+        background-color: #1e2a59;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+
+    .profile-title {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 30px;
+        color: #e0e1dd;
+    }
+
+    .profile-field {
+        margin-bottom: 20px;
+    }
+
+    .profile-label {
+        font-weight: bold;
+        color: #93c5fd;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .profile-input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        background-color: #334155;
+        color: #e2e8f0;
+        font-size: 16px;
+    }
+
+    .btn-save {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        padding: 10px;
+        background-color: #2563eb;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        .btn-save:hover {
+            background-color: #1e40af;
+        }
+
+    .success-message {
+        background-color: #10b981;
+        color: white;
+        padding: 10px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+</style>
+
+<div class="profile-container">
+    <h2 class="profile-title">Edytuj dane</h2>
+
+    @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <div class="success-message">@successMessage</div>
+    }
+
+    <form asp-action="Edit" method="post">
+        <div class="profile-field">
+            <label class="profile-label">Imię:</label>
+            <input class="profile-input" type="text" name="FirstName" value="@firstName" required />
+        </div>
+
+        <div class="profile-field">
+            <label class="profile-label">Nazwisko:</label>
+            <input class="profile-input" type="text" name="LastName" value="@lastName" required />
+        </div>
+
+        <div class="profile-field">
+            <label class="profile-label">Email:</label>
+            <input class="profile-input" type="email" name="Email" value="@email" required />
+        </div>
+
+        <button type="submit" class="btn-save">Zapisz zmiany</button>
+    </form>
+</div>

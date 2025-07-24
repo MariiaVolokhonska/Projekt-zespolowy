@@ -1,0 +1,105 @@
+﻿@model QRLogic.Entities.User
+
+@{
+    ViewData["Title"] = "Profil Użytkownika";
+
+    var firstName = Context.Session.GetString("UserFirstName");
+    var lastName = Context.Session.GetString("UserLastName");
+    var email = Context.Session.GetString("UserEmail");
+    var isLoggedIn = !string.IsNullOrEmpty(firstName);
+}
+
+
+<style>
+    body {
+        background-color: #0a122a;
+        color: #cbd5e1;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .profile-container {
+        max-width: 600px;
+        margin: 60px auto;
+        background-color: #1e2a59;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+
+    .profile-title {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 30px;
+        color: #e0e1dd;
+    }
+
+    .profile-field {
+        margin-bottom: 20px;
+    }
+
+    .profile-label {
+        font-weight: bold;
+        color: #93c5fd;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .profile-value {
+        background-color: #334155;
+        padding: 10px 15px;
+        border-radius: 8px;
+        color: #e2e8f0;
+        font-size: 16px;
+    }
+
+    .btn-edit {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        padding: 10px;
+        background-color: #2563eb;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .btn-edit:hover {
+            background-color: #1e40af;
+        }
+</style>
+
+<div class="profile-container">
+    @if (!isLoggedIn)
+    {
+        <div class="text-center">
+            <h2 class="profile-title">Musisz być zalogowany, aby zobaczyć swój profil</h2>
+            <a href="/Account/Login" class="btn-edit">Zaloguj się</a>
+        </div>
+    }
+    else
+    {
+        <h2 class="profile-title">Twój profil</h2>
+
+        <div class="profile-field">
+            <label class="profile-label">Imię:</label>
+            <div class="profile-value">@firstName</div>
+        </div>
+
+        <div class="profile-field">
+            <label class="profile-label">Nazwisko:</label>
+            <div class="profile-value">@lastName</div>
+        </div>
+
+        <div class="profile-field">
+            <label class="profile-label">Email:</label>
+            <div class="profile-value">@email</div>
+        </div>
+
+        <a href="/Account/Edit" class="btn-edit">Edytuj dane</a>
+    }

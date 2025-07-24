@@ -1,10 +1,6 @@
-﻿using GroupProject.QR;
-using GroupProject.ViewModels;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
 using QRLogic;
 using GroupProject.Services.Interfaces;
-using AspNetCoreGeneratedDocument;
 using GroupProject.Repositories.Interfaces;
 
 namespace GroupProject.Controllers

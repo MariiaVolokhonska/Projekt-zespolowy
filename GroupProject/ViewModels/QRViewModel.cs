@@ -2,7 +2,7 @@
 {
     public class QRViewModel
     {
-        public string QrCode { get; set; }
-        public string QrId { get; set; }
+        public string? QrCode { get; set; }
+        public string? QrId { get; set; }
     }
 }

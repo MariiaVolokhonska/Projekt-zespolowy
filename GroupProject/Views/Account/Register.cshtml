@@ -3,34 +3,104 @@
     ViewData["Title"] = "Register";
 }
 
-<h2>Register</h2>
+<div class="auth-container">
+    <h2>Rejestracja</h2>
 
-<form asp-action="Register" method="post">
-    <div class="form-group">
-        <label asp-for="FirstName"></label>
-        <input asp-for="FirstName" class="form-control" />
-        <span asp-validation-for="FirstName" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="LastName"></label>
-        <input asp-for="LastName" class="form-control" />
-        <span asp-validation-for="LastName" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Password"></label>
-        <input asp-for="Password" type="password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-success">Register</button>
-</form>
+    <form asp-action="Register" method="post">
+        <div class="form-group mb-3">
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName" class="form-control" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-4">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn-auth">Zarejestruj się</button>
+    </form>
+</div>
 
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
+
+
+
+<style>
+    body {
+        background-color: #0a122a;
+        color: #cbd5e1;
+    }
+
+    .auth-container {
+        max-width: 450px;
+        margin: 60px auto;
+        padding: 30px;
+        background-color: #121a3d;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+        color: #e0e1dd;
+    }
+
+        .auth-container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+            color: #e0e1dd;
+        }
+
+    .form-group label {
+        font-weight: 600;
+        color: #cbd5e1;
+    }
+
+    .form-control {
+        background-color: #1e2a59;
+        color: #e0e1dd;
+        border: 1px solid #334c99;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+        .form-control:focus {
+            background-color: #1e2a59;
+            color: #fff;
+            border-color: #2563eb;
+            box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+        }
+
+    .btn-auth {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 10px;
+        font-weight: 600;
+        background-color: #2563eb;
+        color: #fff;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-auth:hover {
+            background-color: #1e40af;
+        }
+
+    .text-danger {
+        font-size: 0.9rem;
+    }
+</style>
+
