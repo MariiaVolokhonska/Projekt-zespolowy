@@ -2,16 +2,67 @@
 
 @{
     ViewData["Title"] = "Nagrody za punkty";
+    var userPoints = ViewBag.UserPoints as int? ?? 0;
 }
+
+<style>
+    .card.locked {
+        position: relative;
+        pointer-events: none;
+    }
+
+        .card.locked:hover img {
+            filter: blur(4px);
+            opacity: 0.5;
+        }
+
+        .card.locked .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+            z-index: 10;
+            text-align: center;
+        }
+
+    .card.active {
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+        .card.active:hover {
+            transform: scale(1.02);
+        }
+</style>
 
 <h2 class="text-center my-4">Dostępne Usługi za Punkty</h2>
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
     @foreach (var item in Model)
     {
+        var isUnlocked = userPoints >= item.PointPrice;
+        var missingPoints = item.PointPrice - userPoints;
+
         <div class="col">
-            <div class="card h-100 shadow-sm">
-                <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;">
+            <div class="card h-100 shadow-sm @(isUnlocked ? "active" : "locked")"
+                 data-service-id="@item.Id"
+                 data-point-cost="@item.PointPrice"
+                 onclick="@(isUnlocked ? $"redeemCoupon({item.Id}, {item.PointPrice})" : "")">
+
+                <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" style="height: 200px; object-fit: cover;" />
+
+                @if (!isUnlocked)
+                {
+                    <div class="overlay-text">
+                        Brakuje @missingPoints punktów
+                    </div>
+                }
+
                 <div class="card-body">
                     <h5 class="card-title">@item.Name</h5>
                     <p class="card-text">Wymagane punkty: <strong>@item.PointPrice</strong></p>
@@ -20,4 +71,36 @@
         </div>
     }
 </div>
+
+@section Scripts {
+    <script>
+        async function redeemCoupon(serviceId, pointCost) {
+            if (!confirm(`Czy na pewno chcesz aktywować ten kupon za ${pointCost} punktów?`)) return;
+
+            try {
+                const response = await fetch('/wallet/redeem', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        serviceId: serviceId,
+                        pointCost: pointCost
+                    })
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    alert("Kupon został aktywowany!");
+                    console.log("QR Code Base64:", data.qr);
+                    location.reload();
+                } else {
+                    const error = await response.text();
+                    alert("Błąd: " + error);
+                }
+            } catch (err) {
+                console.error("Redeem request failed:", err);
+                alert("Wystąpił błąd podczas aktywacji kuponu.");
+            }
+        }
+    </script>
+}
 

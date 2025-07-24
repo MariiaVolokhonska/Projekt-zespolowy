@@ -13,7 +13,7 @@ public class QRController : Controller
     public IActionResult Index()
     {
         string id = Guid.NewGuid().ToString();
-        string url = $"https://f584-2a02-a31a-a4a1-c780-393d-e2d2-60f4-ed77.ngrok-free.app/trigger?id={id}";
+        string url = $"https://e2147a066f39.ngrok-free.app/trigger?id={id}";
 
         _repo.AddQrCodeScan(new QrCodeScan
         {

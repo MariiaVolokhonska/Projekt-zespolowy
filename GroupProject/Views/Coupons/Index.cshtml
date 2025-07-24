@@ -1,18 +1,97 @@
-﻿
+﻿@model List<GroupProject.ViewModels.CouponViewModel>
 @{
-}
-@{
-    ViewData["Title"] = "Coupons";
+    ViewData["Title"] = "Twoje kupony";
 }
 
-<div class="coupons-container">
-    @for(int i=0; i<4; i++)
-    {
-        <div class="coupon-wrapper">
-            <div class="coupon-block">Coupon 1</div>
-            <button class="coupon-btn">Activate</button>
-        </div>
+<style>
+    .coupons-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
     }
 
+    .coupon-wrapper {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+    }
+
+    .coupon-block {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .coupon-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .coupon-btn {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .coupon-btn:disabled {
+            background-color: #aaa;
+            cursor: not-allowed;
+        }
+
+        .coupon-btn:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+</style>
+
+<h2 class="text-center my-4">Twoje aktywne kupony</h2>
+
+<div class="coupons-container">
+    @foreach (var coupon in Model)
+    {
+        <div class="coupon-wrapper">
+            <div class="coupon-title">@coupon.ServiceName</div>
+            <img src="@coupon.QrCode" alt="QR Code" class="coupon-block" />
+
+            <button class="coupon-btn"
+                    onclick="useCoupon('@coupon.Id')"
+            @(coupon.IsActivated ? "" : "disabled")>
+                @(coupon.IsActivated ? "Aktywuj" : "Zużyty")
+            </button>
+        </div>
+    }
 </div>
+
+@section Scripts {
+    <script>
+        async function useCoupon(couponId) {
+            if (!confirm("Czy na pewno chcesz aktywować ten kupon?")) return;
+
+            try {
+                const response = await fetch(`/coupon/use/${couponId}`, {
+                    method: 'POST'
+                });
+
+                if (response.ok) {
+                    alert("Kupon został aktywowany!");
+                    location.reload();
+                } else {
+                    alert("Błąd podczas aktywacji kuponu.");
+                }
+            } catch (error) {
+                console.error("Błąd:", error);
+                alert("Wystąpił problem podczas aktywacji.");
+            }
+        }
+    </script>
+}
 

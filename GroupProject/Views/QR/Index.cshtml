@@ -1,12 +1,27 @@
 ﻿@{
     ViewData["Title"] = "QR Code";
 }
-<div style="justify-content:center">
+
+<style>
+    .center-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; 
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+</style>
+
+<div class="center-container">
     <h2>Scan this QR Code</h2>
     <img src="@ViewBag.QrCode" alt="QR Code" />
-
     <div id="status" style="margin-top: 20px; font-size: 1.2em;">Waiting for scan...</div>
-
 </div>
 
 <script>
@@ -16,18 +31,26 @@
         try {
             const response = await fetch(`/points?id=${id}`);
             const data = await response.json();
-
+            
             if (data.scanned) {
-                document.getElementById("status").innerText = `Scanned! You received ${data.points} points.`;
-            } else {
-                setTimeout(checkStatus, 2000); // retry in 2s
+        document.getElementById("status").innerText = `Scanned! You received ${data.points} points.`;
+
+        await fetch('/wallet/addpoints', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                points: data.points
+            })
+        });
+    }
+            else {
+                setTimeout(checkStatus, 2000);
             }
         } catch (e) {
             console.error("Error checking status:", e);
-            setTimeout(checkStatus, 5000); // retry slower if error
+            setTimeout(checkStatus, 5000);
         }
     }
 
     checkStatus();
 </script>
-

@@ -1,16 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using QRLogic.Entities;
 using QRLogic;
+using System.Runtime.CompilerServices;
+using GroupProject.Repositories.Interfaces;
+using GroupProject.Services.Interfaces;
 
 namespace GroupProject.Controllers
 {
     public class AccountController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IUserRepository _userRepository;
+        private readonly IWalletRepository _walletRepository;
+        private readonly ILogger<AccountController> _logger;
 
-        public AccountController(AppDbContext context)
+        public AccountController(AppDbContext context, IUserRepository userRepository, IWalletRepository walletRepository, ILogger<AccountController> logger)
         {
             _context = context;
+            _userRepository = userRepository;
+            _walletRepository = walletRepository;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -18,61 +27,29 @@ namespace GroupProject.Controllers
         {
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Register(User user)
+        public async Task<IActionResult> Register(User user)
         {
             if (ModelState.IsValid)
             {
-                var existingUser = _context.Users.FirstOrDefault(u => u.Email == user.Email);
+                var existingUser = await _userRepository.GetUser(user);
                 if (existingUser != null)
                 {
                     ModelState.AddModelError("Email", "Użytkownik z takim adresem e-mail już istnieje.");
                     return View(user);
                 }
-                _context.Users.Add(user);
-                _context.SaveChanges();
-                
+                await _userRepository.AddUser(user);
 
-                /*var coupons = new List<Coupon>
-        {
-            new Coupon
-            {
-                UserId = user.Id,
-                Code = "WELCOME1_" + user.Id,
-                Description = "Welcome coupon #1",
-                Discount = 10.0m,
-                ExpirationDate = DateTime.Now.AddMonths(1)
-            },
-            new Coupon
-            {
-                UserId = user.Id,
-                Code = "WELCOME2_" + user.Id,
-                Description = "Welcome coupon #2",
-                Discount = 15.0m,
-                ExpirationDate = DateTime.Now.AddMonths(1)
-            },
-            new Coupon
-            {
-                UserId = user.Id,
-                Code = "WELCOME3_" + user.Id,
-                Description = "Welcome coupon #3",
-                Discount = 20.0m,
-                ExpirationDate = DateTime.Now.AddMonths(1)
-            },
-            new Coupon
-            {
-                UserId = user.Id,
-                Code = "WELCOME4_" + user.Id,
-                Description = "Welcome coupon #4",
-                Discount = 25.0m,
-                ExpirationDate = DateTime.Now.AddMonths(1)
-            }
-        };
+                var wallet = new UserPointsWallet
+                {
+                    UserId = user.Id,
+                };
 
-                _context.Coupons.AddRange(coupons);
-                _context.SaveChanges();
-                return RedirectToAction("Login");*/
+                await _walletRepository.CreateUserPointWallet(wallet);
+
+                return RedirectToAction("Login");
             }
             return View(user);
         }
@@ -87,21 +64,31 @@ namespace GroupProject.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Login(User user)
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 var existingUser = _context.Users
                     .FirstOrDefault(u => u.Email == user.Email && u.Password == user.Password);
+                _logger.LogInformation("Użytkownik znaleziony: {Email}", existingUser.Email);
 
                 if (existingUser != null)
                 {
-                    Console.WriteLine("Użytkownik znaleziony: " + existingUser.Email);
+                    HttpContext.Session.SetInt32("UserId", existingUser.Id);
+
                     return RedirectToAction("Index", "Main");
                 }
-                Console.WriteLine("Użytkownik NIE znaleziony.");
+
                 ModelState.AddModelError(string.Empty, "Nieprawidłowy e-mail lub hasło.");
-            }
+            //}
 
             return View(user);
+        }
+
+
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login");
         }
     }
 }

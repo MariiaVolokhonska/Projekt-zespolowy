@@ -15,13 +15,16 @@ namespace QRLogic.Entities
         public int ServiceId { get; set; }
 
         [Required]
-        public int RequiredPoints { get; set; }
+        [MaxLength(10000)]
+        public string QrCode { get; set; }
 
         [Required]
         public bool IsActivated { get; set; } = false;
 
         [Required]
         public bool IsUsed { get; set; } = false;
+
+        public Service Service { get; set; }
 
     }
 }

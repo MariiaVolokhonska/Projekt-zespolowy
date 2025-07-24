@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using QRLogic;
 
@@ -11,9 +12,11 @@ using QRLogic;
 namespace QRLogic.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250723215543_MigrationwithQrCode")]
+    partial class MigrationwithQrCode
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -33,9 +36,8 @@ namespace QRLogic.Migrations
                     b.Property<bool>("IsUsed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("QrCode")
+                    b.Property<string>("QRCode")
                         .IsRequired()
-                        .HasMaxLength(10000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ServiceId")
@@ -45,8 +47,6 @@ namespace QRLogic.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ServiceId");
 
                     b.ToTable("Coupons");
                 });
@@ -145,17 +145,6 @@ namespace QRLogic.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserPontsWallets");
-                });
-
-            modelBuilder.Entity("QRLogic.Entities.Coupon", b =>
-                {
-                    b.HasOne("QRLogic.Entities.Service", "Service")
-                        .WithMany()
-                        .HasForeignKey("ServiceId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Service");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,0 +1,40 @@
+﻿@model QRLogic.Entities.UserPointsWallet
+
+@{
+    ViewData["Title"] = "My Wallet";
+}
+
+<style>
+    .wallet-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    .wallet-card {
+        background-color: #e0f3ff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 90%;
+    }
+
+    .wallet-points {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #007acc;
+    }
+</style>
+
+<div class="wallet-container">
+    <div class="wallet-card">
+        <h2>Your Wallet</h2>
+        <p class="wallet-points">@Model.AmountOfPoints points</p>
+    </div>
+</div>
+
