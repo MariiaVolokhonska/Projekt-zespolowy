@@ -72,6 +72,26 @@
         .btn-edit:hover {
             background-color: #1e40af;
         }
+
+    .btn-delete {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #dc2626; /* czerwony */
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .btn-delete:hover {
+            background-color: #991b1b;
+        }
+
 </style>
 
 <div class="profile-container">
@@ -101,5 +121,13 @@
             <div class="profile-value">@email</div>
         </div>
 
-        <a href="/Account/Edit" class="btn-edit">Edytuj dane</a>
+        <div class="btn-row">
+            <a href="/Account/Edit" class="btn-edit">Edytuj dane</a>
+
+            <form asp-action="Delete" method="post" onsubmit="return confirm('Czy na pewno chcesz usunąć konto?');">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="btn-delete">Usuń konto</button>
+            </form>
+
+        </div>
     }

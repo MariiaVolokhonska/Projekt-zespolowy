@@ -107,7 +107,6 @@ namespace GroupProject.Controllers
 
             await _context.SaveChangesAsync();
 
-            // Zaktualizuj sesję
             HttpContext.Session.SetString("UserFirstName", FirstName);
             HttpContext.Session.SetString("UserLastName", LastName);
             HttpContext.Session.SetString("UserEmail", Email);
@@ -115,6 +114,27 @@ namespace GroupProject.Controllers
             TempData["SuccessMessage"] = "Dane zostały zaktualizowane.";
 
             return RedirectToAction("Edit");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete()
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+
+            if (userId == null)
+                return RedirectToAction("Login");
+
+            var user = await _context.Users.FindAsync(userId);
+            if (user != null)
+            {
+                _context.Users.Remove(user);
+                await _context.SaveChangesAsync();
+                HttpContext.Session.Clear();
+                TempData["Info"] = "Konto zostało usunięte.";
+            }
+
+            return RedirectToAction("Login");
         }
 
 

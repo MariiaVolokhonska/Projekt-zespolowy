@@ -2,6 +2,13 @@
 @{
     ViewData["Title"] = "Login";
 }
+@if (TempData["Info"] != null)
+{
+    <div style="background-color: #1e3a8a; color: #e0e7ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
+        @TempData["Info"]
+    </div>
+}
+
 
 <div class="auth-container">
     <h2>Login</h2>
