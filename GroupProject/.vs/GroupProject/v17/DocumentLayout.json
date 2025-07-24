@@ -10,12 +10,40 @@
       "AbsoluteMoniker": "D:0:0:{76F7005F-6988-4BB9-9352-A1D5938C05CA}|..\\QRLogic\\QRLogic.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\qrlogic\\entities\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\viewmodels\\couponviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:viewmodels\\couponviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\repositories\\couponsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:repositories\\couponsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\repositories\\interfaces\\icouponsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:repositories\\interfaces\\icouponsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\controllers\\couponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\couponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,14 +56,6 @@
       "AbsoluteMoniker": "D:0:0:{76F7005F-6988-4BB9-9352-A1D5938C05CA}|..\\QRLogic\\QRLogic.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\qrlogic\\entities\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\viewmodels\\couponviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:viewmodels\\couponviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -46,26 +66,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\repositories\\interfaces\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:repositories\\interfaces\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\repositories\\interfaces\\icouponsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:repositories\\interfaces\\icouponsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:repositories\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\repositories\\couponsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:repositories\\couponsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\groupproject\\controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA081B0-12BB-87C4-3061-E7031F774E95}|GroupProject.csproj|solutionrelative:controllers\\qrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76F7005F-6988-4BB9-9352-A1D5938C05CA}|..\\QRLogic\\QRLogic.csproj|c:\\users\\admin\\source\\repos\\projekt-zespolowy\\qrlogic\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -210,8 +210,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CouponsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\CouponsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CouponsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\CouponsController.cs",
+              "RelativeToolTip": "Controllers\\CouponsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T09:47:45.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CouponsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\CouponsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CouponsRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\CouponsRepository.cs",
+              "RelativeToolTip": "Repositories\\CouponsRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T21:51:19.979Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -220,48 +266,9 @@
               "RelativeDocumentMoniker": "Views\\Coupons\\Index.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Views\\Coupons\\Index.cshtml",
               "RelativeToolTip": "Views\\Coupons\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-15T21:14:16.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CouponsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\CouponsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CouponsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\CouponsController.cs",
-              "RelativeToolTip": "Controllers\\CouponsController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwAUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T09:47:45.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\MainController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MainController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\MainController.cs",
-              "RelativeToolTip": "Controllers\\MainController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T21:00:28.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwEYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T20:17:02.08Z",
               "EditorCaption": ""
             },
             {
@@ -272,7 +279,7 @@
               "RelativeDocumentMoniker": "..\\QRLogic\\Entities\\Coupon.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Entities\\Coupon.cs",
               "RelativeToolTip": "..\\QRLogic\\Entities\\Coupon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T19:34:49.255Z",
               "EditorCaption": ""
@@ -280,110 +287,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WalletController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\WalletController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WalletController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\WalletController.cs",
-              "RelativeToolTip": "Controllers\\WalletController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T15:14:05.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250724074912_QrLengthChanged.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Migrations\\20250724074912_QrLengthChanged.cs",
-              "RelativeDocumentMoniker": "..\\QRLogic\\Migrations\\20250724074912_QrLengthChanged.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Migrations\\20250724074912_QrLengthChanged.cs",
-              "RelativeToolTip": "..\\QRLogic\\Migrations\\20250724074912_QrLengthChanged.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T07:49:12.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Entities\\Service.cs",
-              "RelativeDocumentMoniker": "..\\QRLogic\\Entities\\Service.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Entities\\Service.cs",
-              "RelativeToolTip": "..\\QRLogic\\Entities\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T19:32:13.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "CouponViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\ViewModels\\CouponViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\CouponViewModel.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\ViewModels\\CouponViewModel.cs",
               "RelativeToolTip": "ViewModels\\CouponViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T08:01:44.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "Repositories\\UsersRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIAwwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T21:51:00.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IWalletRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\Interfaces\\IWalletRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IWalletRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\Interfaces\\IWalletRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IWalletRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T14:51:30.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Views\\Main\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Main\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Views\\Main\\Index.cshtml",
-              "RelativeToolTip": "Views\\Main\\Index.cshtml",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAiwFgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-23T20:36:25.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "ICouponsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\Interfaces\\ICouponsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICouponsRepository.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\Interfaces\\ICouponsRepository.cs",
               "RelativeToolTip": "Repositories\\Interfaces\\ICouponsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T07:27:44.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "WalletRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\WalletRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\WalletRepository.cs",
@@ -396,20 +325,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CouponsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\CouponsRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\CouponsRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\CouponsRepository.cs",
-              "RelativeToolTip": "Repositories\\CouponsRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA0AAAAzAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "QRController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\QRController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QRController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\QRController.cs",
+              "RelativeToolTip": "Controllers\\QRController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T21:51:19.979Z",
+              "WhenOpened": "2025-06-28T12:31:56.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WalletController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "Controllers\\WalletController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T15:14:05.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -422,15 +364,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "QRController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\QRController.cs",
-              "RelativeDocumentMoniker": "Controllers\\QRController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\QRController.cs",
-              "RelativeToolTip": "Controllers\\QRController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwAwAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T12:31:56.717Z",
+              "WhenOpened": "2025-07-15T20:17:02.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\MainController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MainController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Controllers\\MainController.cs",
+              "RelativeToolTip": "Controllers\\MainController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T21:00:28.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250724074912_QrLengthChanged.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Migrations\\20250724074912_QrLengthChanged.cs",
+              "RelativeDocumentMoniker": "..\\QRLogic\\Migrations\\20250724074912_QrLengthChanged.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Migrations\\20250724074912_QrLengthChanged.cs",
+              "RelativeToolTip": "..\\QRLogic\\Migrations\\20250724074912_QrLengthChanged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T07:49:12.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Entities\\Service.cs",
+              "RelativeDocumentMoniker": "..\\QRLogic\\Entities\\Service.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\QRLogic\\Entities\\Service.cs",
+              "RelativeToolTip": "..\\QRLogic\\Entities\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T19:32:13.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIAwwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T21:51:00.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IWalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\Interfaces\\IWalletRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IWalletRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Repositories\\Interfaces\\IWalletRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IWalletRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T14:51:30.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Views\\Main\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Main\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Projekt-zespolowy\\GroupProject\\Views\\Main\\Index.cshtml",
+              "RelativeToolTip": "Views\\Main\\Index.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T20:36:25.978Z",
               "EditorCaption": ""
             },
             {

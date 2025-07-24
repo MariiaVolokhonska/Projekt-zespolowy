@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QRLogic;
 using GroupProject.Services.Interfaces;
+using AspNetCoreGeneratedDocument;
+using GroupProject.Repositories.Interfaces;
 
 namespace GroupProject.Controllers
 {
@@ -11,11 +13,13 @@ namespace GroupProject.Controllers
     {
         private readonly AppDbContext _context;
         private readonly ICurrentUserService _currentUser; 
+        private readonly ICouponsRepository _couponsRepo;
 
-        public CouponsController(AppDbContext context, ICurrentUserService currentUser)
+        public CouponsController(AppDbContext context, ICurrentUserService currentUser, ICouponsRepository couponsRepo)
         {
             _context = context;
             _currentUser = currentUser;
+            _couponsRepo = couponsRepo;
         }
 
         public async Task<IActionResult> Index()
@@ -23,18 +27,22 @@ namespace GroupProject.Controllers
             var userId = _currentUser.GetUserId();
             if (userId == null) return RedirectToAction("Login", "Account");
 
-            var coupons = await _context.Coupons
-                .Include(c => c.Service)
-                .Where(c => c.UserId == userId)
-                .ToListAsync();
+            Console.WriteLine("User ID: " + userId);
+            var model = (await _couponsRepo.GetCouponsByUserId((int)userId.Value));
+           /* Console.WriteLine("HELLOOOO");
+            foreach (var coupon in coupons)
+            {
+                Console.WriteLine($"Coupon ID: {coupon.Id}, Service: {coupon.Service?.Name ?? "Brak nazwy"}, QR Code: {coupon.QrCode}, Is Activated: {coupon.IsActivated}, Is Used: {coupon.IsUsed}");
+            }
 
             var model = coupons.Select(c => new CouponViewModel
             {
                 Id = c.Id,
                 ServiceName = c.Service?.Name ?? "Brak nazwy",
                 QrCode = c.QrCode,
-                IsActivated = c.IsActivated
-            }).ToList();
+                IsActivated = c.IsActivated,
+                IsUsed = c.IsUsed,
+            }).ToList();*/
 
             return View(model);
         }

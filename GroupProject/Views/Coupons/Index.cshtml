@@ -55,21 +55,40 @@
 
 <h2 class="text-center my-4">Twoje aktywne kupony</h2>
 
-<div class="coupons-container">
-    @foreach (var coupon in Model)
-    {
-        <div class="coupon-wrapper">
-            <div class="coupon-title">@coupon.ServiceName</div>
-            <img src="@coupon.QrCode" alt="QR Code" class="coupon-block" />
+@if (!Model.Any())
+{
+    <div class="text-center text-muted mb-4">
+        <h4>Brak aktywnych kuponów.</h4>
+    </div>
+}
+else
+{
+    <div class="coupons-container">
+        @foreach (var coupon in Model)
+        {
+            <div class="coupon-wrapper">
+                <div class="coupon-title">@coupon.ServiceName</div>
+                <img src="@coupon.QrCode" alt="QR Code" class="coupon-block" />
 
-            <button class="coupon-btn"
-                    onclick="useCoupon('@coupon.Id')"
-            @(coupon.IsActivated ? "" : "disabled")>
-                @(coupon.IsActivated ? "Aktywuj" : "Zużyty")
-            </button>
-        </div>
-    }
-</div>
+                @if (coupon.IsUsed)
+                {
+                    <div class="text-muted">Zużyty</div>
+                }
+                else if (coupon.IsActivated)
+                {
+                    <div class="text-primary fw-bold">Żeby aktywować, zeskanuj kod QR</div>
+                }
+                else
+                {
+                    <button class="coupon-btn"
+                            onclick="useCoupon('@coupon.Id')">
+                        Aktywuj
+                    </button>
+                }
+            </div>
+        }
+    </div>
+}
 
 @section Scripts {
     <script>
@@ -94,4 +113,5 @@
         }
     </script>
 }
+
 

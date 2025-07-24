@@ -24,6 +24,7 @@ namespace QRLogic.Entities
         [Required]
         public bool IsUsed { get; set; } = false;
 
+  
         public Service Service { get; set; }
 
     }
